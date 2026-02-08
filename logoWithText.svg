@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50">
+  <defs>
+    <linearGradient id="layerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#63edb3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#31ce82;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <rect x="0" y="25" width="40" height="8" rx="2" fill="#2c8252" opacity="0.8"/>
+    <rect x="5" y="15" width="30" height="8" rx="2" fill="#31ce82" opacity="0.9"/>
+    <path d="M15 7 L20 1 L25 7 L25 13 L15 13 Z" fill="url(#layerGradient)"/>
+    <line x1="20" y1="7" x2="20" y2="29" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <text x="60" y="38" font-family="Arial, sans-serif" font-size="24">
+    <tspan fill="#719680" font-weight="500">App</tspan><tspan fill="#2bb06c" font-weight="800">LCA</tspan>
+  </text>
+</svg>
